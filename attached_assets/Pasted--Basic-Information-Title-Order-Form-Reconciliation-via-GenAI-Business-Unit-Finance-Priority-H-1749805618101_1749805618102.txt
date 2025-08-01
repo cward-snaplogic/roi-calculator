@@ -1,0 +1,151 @@
+📋 Basic Information
+Title: Order Form Reconciliation via GenAI
+
+Business Unit: Finance
+
+Priority: High
+
+Expected ROI: 60.0%
+
+Data Sensitivity: High
+
+Submitted: 2025-06-13T09:00:00+01:00
+
+Use Case Submitted: True
+
+📝 Description & Problem
+Description:
+
+Automate the extraction and reconciliation of key financial data from customer Order Forms with Salesforce to reduce manual effort and improve reporting accuracy.
+
+Long Description:
+
+Finance and Accounting teams manually extract and validate ARR and financial data from Order Forms and Salesforce. This process is error-prone, time-consuming (~40–50 hours/month), and impacts reporting accuracy. The GenAI-powered solution reads PDFs, extracts structured data, reconciles it against Salesforce, and stores results in Snowflake and Box.
+
+Business Problem:
+
+Manual processing of Order Forms to calculate financial metrics leads to errors, scalability issues, and potential revenue loss due to misreporting.
+
+Proposed Solution:
+
+Use SnapLogic GenAI Builder to automate PDF data extraction, reconcile with Salesforce data, and write validated outputs to Snowflake and Box.
+
+⚙️ Process & Requirements
+Current Process:
+
+• Manually search Box for customer folders and Order Forms
+
+• Extract and validate data manually using Excel
+
+• Cross-check against Salesforce records
+
+• Calculate financial metrics
+
+Challenges:
+
+• Time-consuming (40–50 hours/month)
+
+• Prone to human error
+
+• No system of record for order metadata
+
+• Discrepancies between documents and Salesforce
+
+Pain Points:
+
+• Manual PDF review
+
+• Inconsistent data formats
+
+• Delayed month-end reporting
+
+• Potential revenue leakage
+
+🔧 Systems & Teams
+Systems Involved:
+
+• Box
+
+• Salesforce
+
+• Excel
+
+• Snowflake
+
+Teams Involved:
+
+• Finance
+
+• Accounting
+
+Teams Benefited:
+
+• Finance
+
+• Accounting
+
+• Revenue Operations
+
+💰 Benefits & ROI
+Potential Benefits:
+
+• 90% reduction in manual review time
+
+• 30% faster month-end close
+
+• 2% revenue recovery
+
+• BoD-ready financial reporting
+
+ROI Estimate:
+
+Time Saved: 35–45 hours/month
+
+Benefits:
+
+• Improved accuracy
+
+• Faster close process
+
+• Error reduction
+
+• Revenue recovery
+
+Expected Outcomes:
+
+• Reduced manual effort
+
+• Improved financial operations
+
+• Validated GenAI outputs at scale
+
+Reference: https://mysnaplogic.atlassian.net/wiki/spaces/PO/pages/3216441432/Order+Form+SFDC+Reconciliation
+
+📊 Task Details
+Task Frequency: Monthly
+
+Task Volume: Tens to hundreds of Order Forms per month
+
+Currently Manual: Yes
+
+Criticality: High
+
+Importance: High impact on financial accuracy and operational efficiency
+
+Category: Reconciliation
+
+Complexity Factors:
+
+• Multiple order form formats
+
+• Establishing mappings between Box and Salesforce
+
+• Handling non-standard documents
+
+• Prompt quality and LLM output variability
+
+Process Recording: https://www.loom.com/share/fbfee211a2cb43e7b2386c42bbed05aa
+
+Recording Shared: Yes
+
+Problem Exists Outside SnapLogic: Yes
