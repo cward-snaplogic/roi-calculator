@@ -1,0 +1,18 @@
+# Core framework
+streamlit
+
+# Data handling
+pandas
+numpy
+
+# Visualization
+plotly
+
+# HTTP requests
+requests
+
+# Database (PostgreSQL)
+psycopg2-binary
+
+# Environment variable loading (only for local/dev)
+python-dotenv
